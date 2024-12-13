@@ -1,0 +1,6 @@
+framework module microsurveys {
+  umbrella header "microsurveys.h"
+  export *
+
+  module * { export * }
+}
