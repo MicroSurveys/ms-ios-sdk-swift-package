@@ -14,27 +14,31 @@
 		</data>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		WrOUN7xaVgRa4BgiAYPtp+otB4Q=
+		KMu146ICSOK2pAuU83lUgB8AP/E=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ZdWnQiMJ7l3/x0OxslrvslnN7PU=
+		bkpif1B3yrzgGtfjKYKUB8Es2do=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		s5+uRVBva2R7f1cMyOnzoXOIzhw=
+		S1Nkb26UhHb8lOQrQ9dM5x6yi1o=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ZdWnQiMJ7l3/x0OxslrvslnN7PU=
+		bkpif1B3yrzgGtfjKYKUB8Es2do=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ENJJar+eGHkFvLnT3Uc6jowbHiQ=
+		UGCbeB+ajDsN1jzL+z5L2E+0/0w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		qb9WShfkRBFli5kme405KBx4Qek=
+		</data>
+		<key>README</key>
+		<data>
+		5yj/RoBEuiLcyyR402DFX8gaEVk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -50,35 +54,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DC62i7iupfLxDPT3HicHrbdqlPiIwvBNAJ9alRx7GbU=
+			lw0pKdwKwyBaFQ83m2JH5hl4YtDbC2mCtQBAaof/zYs=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XLSj+zff5h+h4icBQ9jgvE7uMH0w2xLkNuGMSZSfxQs=
+			cmuCc1FsVdsDQu7sHPTdyE+Y6Jl3WcepkQnSHBdShBk=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oaUz/mA0Mza53X0v/txEhfwsUx+SChXyJjBYghY4Yk4=
+			8MQqJlLLJUkt7nyigeNJ3sMuGr+ljBpzR0Gnu1Q0yVI=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XLSj+zff5h+h4icBQ9jgvE7uMH0w2xLkNuGMSZSfxQs=
+			cmuCc1FsVdsDQu7sHPTdyE+Y6Jl3WcepkQnSHBdShBk=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pE4ictIhEw8ERDlm7IRzaVs2CU6hYfbVVRKQvOHSgjM=
+			jY4RCGAYgmCJaODEnRxtoi1czNeXiz4RLeC+h9o9+og=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -86,6 +90,13 @@
 			<key>hash2</key>
 			<data>
 			1rvswkIhBcrmvnWBQosXGSWX7q1ZAFFNid5iuJTrPRk=
+			</data>
+		</dict>
+		<key>README</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9O6yyyiOmLQKy99WLiAnSoIY4PuVDxmShkpWGsuhjNc=
 			</data>
 		</dict>
 	</dict>

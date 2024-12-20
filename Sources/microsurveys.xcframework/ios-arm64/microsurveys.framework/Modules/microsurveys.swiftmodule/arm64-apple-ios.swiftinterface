@@ -7,6 +7,24 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import microsurveys
-public struct microsurveys {
-  public static func doSomething()
+public protocol MicroSurveysDelegate : AnyObject {
+  func surveyOpened()
+  func surveyClosed()
+  func surveyReceived(info: microsurveys.MicroSurveyInfo)
+  func surveyCompleted(info: microsurveys.MicroSurveyInfo)
+  func surveyNotAvailable()
+  func userRejectedSurvey()
+  func userNotEligible()
+}
+public struct MicroSurveyInfo {
+  public let id: Swift.String
+  public let cpa: Swift.Int?
+  public let loi: Swift.Int?
+  public let ir: Swift.Int?
+  public init(id: Swift.String, cpa: Swift.Int? = nil, loi: Swift.Int? = nil, ir: Swift.Int? = nil)
+}
+public struct MicroSurveys {
+  public static func initialize(apiKey: Swift.String, delegate: any microsurveys.MicroSurveysDelegate)
+  public static func show()
+  public static func hide()
 }

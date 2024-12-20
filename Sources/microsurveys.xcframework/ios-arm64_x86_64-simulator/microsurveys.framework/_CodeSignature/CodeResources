@@ -14,47 +14,51 @@
 		</data>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WrOUN7xaVgRa4BgiAYPtp+otB4Q=
+		KMu146ICSOK2pAuU83lUgB8AP/E=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		HP37p0dHo7df1NgK56RTOKddlmk=
+		4NHvTimhydU02LpwKysq8D1bY9g=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kSLhhEkR8Ps2tPXwxgRjMpP1Gcg=
+		rhLNIMJ7wMIGqoxCotxzGxS0e9U=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HP37p0dHo7df1NgK56RTOKddlmk=
+		4NHvTimhydU02LpwKysq8D1bY9g=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		v+dksYFJuA5OXIrlj7h1Rrb87+U=
+		s67GTI7EzjdkYMqho3gutPqdmp4=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WrOUN7xaVgRa4BgiAYPtp+otB4Q=
+		KMu146ICSOK2pAuU83lUgB8AP/E=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aFsJcyKoOwi2awMqMS3Avkgctlo=
+		mcNP7O9q2pTkMutFXUOuwYE3MNI=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		sSa12uy+ST64vB43qrvEcHvnhhc=
+		SCPoamSsrLFT862PvjysiuuvlUI=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aFsJcyKoOwi2awMqMS3Avkgctlo=
+		mcNP7O9q2pTkMutFXUOuwYE3MNI=
 		</data>
 		<key>Modules/microsurveys.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ha1dca57HHBvTufduge1pFGvmm4=
+		T5r/usCy++p4pkHmdlnh0c/DadE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		qb9WShfkRBFli5kme405KBx4Qek=
+		</data>
+		<key>README</key>
+		<data>
+		5yj/RoBEuiLcyyR402DFX8gaEVk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -70,70 +74,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DC62i7iupfLxDPT3HicHrbdqlPiIwvBNAJ9alRx7GbU=
+			lw0pKdwKwyBaFQ83m2JH5hl4YtDbC2mCtQBAaof/zYs=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2VVNEkSuwYB0CmPeindXT55Kjn2k/dt0BiBv/N58LJE=
+			1s8VCgJFzQTDAe8PrXHpXzKQZvL+jyUtBN8GNDNArA4=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QsuAZCN/7oXxfl+tSUZLU34CCgScH30O8F6sikT9MNs=
+			XY7IGzB38g/QfABn/33nwfjfrLhEA4MBrd79Kn1bU7k=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2VVNEkSuwYB0CmPeindXT55Kjn2k/dt0BiBv/N58LJE=
+			1s8VCgJFzQTDAe8PrXHpXzKQZvL+jyUtBN8GNDNArA4=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OGsoXwpmO4gh06EamodK/436wldSyF9Tnao16IQKwZQ=
+			W+0VU+SZxYXlUno5cr5aIw2kxl9VhTZxE18wRhbdXJo=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DC62i7iupfLxDPT3HicHrbdqlPiIwvBNAJ9alRx7GbU=
+			lw0pKdwKwyBaFQ83m2JH5hl4YtDbC2mCtQBAaof/zYs=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SYcUysLkeMOJYHEx9hz0wNF1R39UcOore5vXfIeKQbQ=
+			P61DxtP2vGKAaLoQyZiUJHIVUhsL+owUW5vmm9uQ5Lg=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lrwOgL4jJtpnjH4AEiUNsrf4iMRqKYTELfH0Zonxfk4=
+			Jr8EhjcMW47VNvisuQJO/bwepd1lyBhOzhYXzql+x6o=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SYcUysLkeMOJYHEx9hz0wNF1R39UcOore5vXfIeKQbQ=
+			P61DxtP2vGKAaLoQyZiUJHIVUhsL+owUW5vmm9uQ5Lg=
 			</data>
 		</dict>
 		<key>Modules/microsurveys.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tAen+WurqCfWLTWh12nssExgpc4qwlHscY4dNvQd6n8=
+			2RIMYbQ29co1lr0I1wgAQqXqahYrMAzqM0+47I9ejQg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -141,6 +145,13 @@
 			<key>hash2</key>
 			<data>
 			1rvswkIhBcrmvnWBQosXGSWX7q1ZAFFNid5iuJTrPRk=
+			</data>
+		</dict>
+		<key>README</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9O6yyyiOmLQKy99WLiAnSoIY4PuVDxmShkpWGsuhjNc=
 			</data>
 		</dict>
 	</dict>

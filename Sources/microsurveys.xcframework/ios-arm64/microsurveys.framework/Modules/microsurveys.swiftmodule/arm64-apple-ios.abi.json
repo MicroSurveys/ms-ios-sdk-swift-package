@@ -13,13 +13,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "microsurveys",
-        "printedName": "microsurveys",
+        "name": "MicroSurveysDelegate",
+        "printedName": "MicroSurveysDelegate",
         "children": [
           {
             "kind": "Function",
-            "name": "doSomething",
-            "printedName": "doSomething()",
+            "name": "surveyOpened",
+            "printedName": "surveyOpened()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -28,19 +28,619 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12microsurveysAAV11doSomethingyyFZ",
-            "mangledName": "$s12microsurveysAAV11doSomethingyyFZ",
+            "usr": "s:12microsurveys20MicroSurveysDelegateP12surveyOpenedyyF",
+            "mangledName": "$s12microsurveys20MicroSurveysDelegateP12surveyOpenedyyF",
+            "moduleName": "microsurveys",
+            "genericSig": "<τ_0_0 where τ_0_0 : microsurveys.MicroSurveysDelegate>",
+            "sugared_genericSig": "<Self where Self : microsurveys.MicroSurveysDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "surveyClosed",
+            "printedName": "surveyClosed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12microsurveys20MicroSurveysDelegateP12surveyClosedyyF",
+            "mangledName": "$s12microsurveys20MicroSurveysDelegateP12surveyClosedyyF",
+            "moduleName": "microsurveys",
+            "genericSig": "<τ_0_0 where τ_0_0 : microsurveys.MicroSurveysDelegate>",
+            "sugared_genericSig": "<Self where Self : microsurveys.MicroSurveysDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "surveyReceived",
+            "printedName": "surveyReceived(info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MicroSurveyInfo",
+                "printedName": "microsurveys.MicroSurveyInfo",
+                "usr": "s:12microsurveys15MicroSurveyInfoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12microsurveys20MicroSurveysDelegateP14surveyReceived4infoyAA0B10SurveyInfoV_tF",
+            "mangledName": "$s12microsurveys20MicroSurveysDelegateP14surveyReceived4infoyAA0B10SurveyInfoV_tF",
+            "moduleName": "microsurveys",
+            "genericSig": "<τ_0_0 where τ_0_0 : microsurveys.MicroSurveysDelegate>",
+            "sugared_genericSig": "<Self where Self : microsurveys.MicroSurveysDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "surveyCompleted",
+            "printedName": "surveyCompleted(info:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MicroSurveyInfo",
+                "printedName": "microsurveys.MicroSurveyInfo",
+                "usr": "s:12microsurveys15MicroSurveyInfoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12microsurveys20MicroSurveysDelegateP15surveyCompleted4infoyAA0B10SurveyInfoV_tF",
+            "mangledName": "$s12microsurveys20MicroSurveysDelegateP15surveyCompleted4infoyAA0B10SurveyInfoV_tF",
+            "moduleName": "microsurveys",
+            "genericSig": "<τ_0_0 where τ_0_0 : microsurveys.MicroSurveysDelegate>",
+            "sugared_genericSig": "<Self where Self : microsurveys.MicroSurveysDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "surveyNotAvailable",
+            "printedName": "surveyNotAvailable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12microsurveys20MicroSurveysDelegateP18surveyNotAvailableyyF",
+            "mangledName": "$s12microsurveys20MicroSurveysDelegateP18surveyNotAvailableyyF",
+            "moduleName": "microsurveys",
+            "genericSig": "<τ_0_0 where τ_0_0 : microsurveys.MicroSurveysDelegate>",
+            "sugared_genericSig": "<Self where Self : microsurveys.MicroSurveysDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userRejectedSurvey",
+            "printedName": "userRejectedSurvey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12microsurveys20MicroSurveysDelegateP18userRejectedSurveyyyF",
+            "mangledName": "$s12microsurveys20MicroSurveysDelegateP18userRejectedSurveyyyF",
+            "moduleName": "microsurveys",
+            "genericSig": "<τ_0_0 where τ_0_0 : microsurveys.MicroSurveysDelegate>",
+            "sugared_genericSig": "<Self where Self : microsurveys.MicroSurveysDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotEligible",
+            "printedName": "userNotEligible()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12microsurveys20MicroSurveysDelegateP15userNotEligibleyyF",
+            "mangledName": "$s12microsurveys20MicroSurveysDelegateP15userNotEligibleyyF",
+            "moduleName": "microsurveys",
+            "genericSig": "<τ_0_0 where τ_0_0 : microsurveys.MicroSurveysDelegate>",
+            "sugared_genericSig": "<Self where Self : microsurveys.MicroSurveysDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12microsurveys20MicroSurveysDelegateP",
+        "mangledName": "$s12microsurveys20MicroSurveysDelegateP",
+        "moduleName": "microsurveys",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MicroSurveyInfo",
+        "printedName": "MicroSurveyInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12microsurveys15MicroSurveyInfoV2idSSvp",
+            "mangledName": "$s12microsurveys15MicroSurveyInfoV2idSSvp",
+            "moduleName": "microsurveys",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12microsurveys15MicroSurveyInfoV2idSSvg",
+                "mangledName": "$s12microsurveys15MicroSurveyInfoV2idSSvg",
+                "moduleName": "microsurveys",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cpa",
+            "printedName": "cpa",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12microsurveys15MicroSurveyInfoV3cpaSiSgvp",
+            "mangledName": "$s12microsurveys15MicroSurveyInfoV3cpaSiSgvp",
+            "moduleName": "microsurveys",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12microsurveys15MicroSurveyInfoV3cpaSiSgvg",
+                "mangledName": "$s12microsurveys15MicroSurveyInfoV3cpaSiSgvg",
+                "moduleName": "microsurveys",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loi",
+            "printedName": "loi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12microsurveys15MicroSurveyInfoV3loiSiSgvp",
+            "mangledName": "$s12microsurveys15MicroSurveyInfoV3loiSiSgvp",
+            "moduleName": "microsurveys",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12microsurveys15MicroSurveyInfoV3loiSiSgvg",
+                "mangledName": "$s12microsurveys15MicroSurveyInfoV3loiSiSgvg",
+                "moduleName": "microsurveys",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ir",
+            "printedName": "ir",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12microsurveys15MicroSurveyInfoV2irSiSgvp",
+            "mangledName": "$s12microsurveys15MicroSurveyInfoV2irSiSgvp",
+            "moduleName": "microsurveys",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12microsurveys15MicroSurveyInfoV2irSiSgvg",
+                "mangledName": "$s12microsurveys15MicroSurveyInfoV2irSiSgvg",
+                "moduleName": "microsurveys",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:cpa:loi:ir:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MicroSurveyInfo",
+                "printedName": "microsurveys.MicroSurveyInfo",
+                "usr": "s:12microsurveys15MicroSurveyInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12microsurveys15MicroSurveyInfoV2id3cpa3loi2irACSS_SiSgA2Htcfc",
+            "mangledName": "$s12microsurveys15MicroSurveyInfoV2id3cpa3loi2irACSS_SiSgA2Htcfc",
+            "moduleName": "microsurveys",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12microsurveys15MicroSurveyInfoV",
+        "mangledName": "$s12microsurveys15MicroSurveyInfoV",
+        "moduleName": "microsurveys",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MicroSurveys",
+        "printedName": "MicroSurveys",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(apiKey:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MicroSurveysDelegate",
+                "printedName": "any microsurveys.MicroSurveysDelegate",
+                "usr": "s:12microsurveys20MicroSurveysDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12microsurveys12MicroSurveysV10initialize6apiKey8delegateySS_AA0bC8Delegate_ptFZ",
+            "mangledName": "$s12microsurveys12MicroSurveysV10initialize6apiKey8delegateySS_AA0bC8Delegate_ptFZ",
             "moduleName": "microsurveys",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12microsurveys12MicroSurveysV4showyyFZ",
+            "mangledName": "$s12microsurveys12MicroSurveysV4showyyFZ",
+            "moduleName": "microsurveys",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hide",
+            "printedName": "hide()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12microsurveys12MicroSurveysV4hideyyFZ",
+            "mangledName": "$s12microsurveys12MicroSurveysV4hideyyFZ",
+            "moduleName": "microsurveys",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
-        "usr": "s:12microsurveysAAV",
-        "mangledName": "$s12microsurveysAAV",
+        "usr": "s:12microsurveys12MicroSurveysV",
+        "mangledName": "$s12microsurveys12MicroSurveysV",
         "moduleName": "microsurveys",
         "declAttributes": [
           "AccessControl"
